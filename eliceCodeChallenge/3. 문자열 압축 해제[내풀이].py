@@ -1,4 +1,6 @@
 string = input()
+
+
 def dfs(string):
     front = ""
     middle = ""
@@ -27,7 +29,9 @@ def dfs(string):
         if balance == 0:
             break
         idx += 1
-    
-    back = string[idx+1:]
+
+    back = string[idx + 1 :]
     return len(front[:-1]) + (dfs(middle[1:-1]) * int(front[-1])) + dfs(back)
+
+
 print(dfs(string))
