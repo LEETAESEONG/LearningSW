@@ -40,7 +40,7 @@
 | 25  | Recovering from Errors                       |24.07.17| 2:13  |
 | 26  | Handling Errors in Nested Routes             |24.07.17| 2:44  |
 | 27  | Handling Errors in Layouts                   |24.07.17| 3:02  |
-| 28  | Parallel Routes                              |            | 11:46 |
+| 28  | Parallel Routes                              |24.07.17| 11:46 |
 | 29  | Unmatched Routes                             |            | 9:07  |
 | 30  | Conditional Routes                           |            | 3:48  |
 | 31  | Intercepting Routes                          |            | 10:28 |
