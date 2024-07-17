@@ -1,5 +1,3 @@
-export default function BlogLoading() {
-    return (
-        <h1>Blog Loading</h1>
-    )
+export default function Loading() {
+  return <h1>Blog Loading</h1>;
 }
