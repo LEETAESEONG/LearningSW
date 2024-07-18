@@ -10,6 +10,8 @@
 님의 [Next.js 14 Tutorial](https://www.youtube.com/watch?v=ZjAqacIC_3c&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI) 강의를 듣고 정리하고 연습한 레포입니다.
 
 ### Next.js 14 Tutorial
+- 1 ~ 32는 next-practice
+- 33 부터는 route-handlers-demo
 
 <details>
 <summary>공부한 내용</summary>
@@ -47,9 +49,9 @@
 | 29   | Unmatched Routes                          | 24.07.18    | 9:07  |
 | 30   | Conditional Routes                        | 24.07.18    | 3:48  |
 | 31   | Intercepting Routes                       | 24.07.18    | 10:28 |
-| 32   | Parallel Intercepting Routes              |             | 5:58  |
-| 33   | Route Handlers                            |             | 7:02  |
-| 34   | Handling GET Request                      |             | 4:14  |
+| 32   | Parallel Intercepting Routes              | 24.07.18    | 5:58  |
+| 33   | Route Handlers                            | 24.07.18    | 7:02  |
+| 34   | Handling GET Request                      | 24.07.18    | 4:14  |
 | 35   | Handling POST Request                     |             | 4:23  |
 | 36   | Dynamic Route Handlers                    |             | 4:44  |
 | 37   | Handling PATCH Request                    |             | 4:08  |
