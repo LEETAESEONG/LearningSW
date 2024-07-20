@@ -61,8 +61,8 @@
 | 39   | URL Query Parameters                      | 24.07.20    | 3:48  |
 | 40   | Redirects in Route Handlers               | 24.07.20    | 2:50  |
 | 41   | Headers in Route Handlers                 | 24.07.20    | 6:31  |
-| 42   | Cookies in Route Handlers                 |             | 4:03  |
-| 43   | Caching in Route Handlers                 |             | 4:10  |
+| 42   | Cookies in Route Handlers                 | 24.07.20    | 4:03  |
+| 43   | Caching in Route Handlers                 | 24.07.20    | 4:10  |
 | 44   | Middleware                                |             | 8:23  |
 | 45   | Rendering                                 |             | 1:32  |
 | 46   | Client-side Rendering (CSR)               |             | 3:23  |
