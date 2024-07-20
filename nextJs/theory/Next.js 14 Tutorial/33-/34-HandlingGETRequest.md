@@ -1,0 +1,1 @@
+- 확장프로그램 Thunder client 설치
