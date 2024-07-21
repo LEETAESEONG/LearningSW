@@ -63,7 +63,7 @@
 | 41   | Headers in Route Handlers                 | 24.07.20    | 6:31  |
 | 42   | Cookies in Route Handlers                 | 24.07.20    | 4:03  |
 | 43   | Caching in Route Handlers                 | 24.07.20    | 4:10  |
-| 44   | Middleware                                |             | 8:23  |
+| 44   | Middleware                                | 24.07.21    | 8:23  |
 | 45   | Rendering                                 |             | 1:32  |
 | 46   | Client-side Rendering (CSR)               |             | 3:23  |
 | 47   | Server-side Rendering (SSR)               |             | 6:07  |
