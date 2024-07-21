@@ -12,8 +12,9 @@
 ### Next.js 14 Tutorial
 
 - 1 ~ 32는 next-practice
-- 33 부터는 route-handlers-demo
+- 33 부터 44는 route-handlers-demo 레포
 - Thunder client vs코드 확장자 필요
+- 45 부터는 rendering-deom 레포
 
 <details>
 <summary>공부한 내용</summary>
@@ -64,13 +65,13 @@
 | 42   | Cookies in Route Handlers                 | 24.07.20    | 4:03  |
 | 43   | Caching in Route Handlers                 | 24.07.20    | 4:10  |
 | 44   | Middleware                                | 24.07.21    | 8:23  |
-| 45   | Rendering                                 |             | 1:32  |
-| 46   | Client-side Rendering (CSR)               |             | 3:23  |
-| 47   | Server-side Rendering (SSR)               |             | 6:07  |
-| 48   | Suspense for SSR                          |             | 7:49  |
-| 49   | React Server Components (RSC)             |             | 9:01  |
-| 50   | Server and Client Components              |             | 8:21  |
-| 51   | RSC Rendering Lifecycle                   |             | 3:56  |
+| 45   | Rendering                                 | 24.07.21    | 1:32  |
+| 46   | Client-side Rendering (CSR)               | 24.07.21    | 3:23  |
+| 47   | Server-side Rendering (SSR)               | 24.07.21    | 6:07  |
+| 48   | Suspense for SSR                          | 24.07.21    | 7:49  |
+| 49   | React Server Components (RSC)             | 24.07.21    | 9:01  |
+| 50   | Server and Client Components              | 24.07.21    | 8:21  |
+| 51   | RSC Rendering Lifecycle                   | 24.07.21    | 3:56  |
 | 52   | Static Rendering                          |             | 13:45 |
 | 53   | Dynamic Rendering                         |             | 5:32  |
 | 54   | Streaming                                 |             | 4:22  |
