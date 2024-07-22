@@ -16,6 +16,14 @@
 - Thunder client vs코드 확장자 필요
 - 45 부터는 rendering-deom 레포
 
+```bash
+npm install slick-carousel --save
+```
+
+```bash
+npm i server-only
+```
+
 <details>
 <summary>공부한 내용</summary>
 
@@ -74,9 +82,9 @@
 | 51   | RSC Rendering Lifecycle                   | 24.07.21    | 3:56  |
 | 52   | Static Rendering                          | 24.07.22    | 13:45 |
 | 53   | Dynamic Rendering                         | 24.07.22    | 5:32  |
-| 54   | Streaming                                 |             | 4:22  |
-| 55   | Server and Client Composition Patterns    |             | 1:11  |
-| 56   | Server-only Code                          |             | 7:29  |
+| 54   | Streaming                                 | 24.07.22    | 4:22  |
+| 55   | Server and Client Composition Patterns    | 24.07.22    | 1:11  |
+| 56   | Server-only Code                          | 24.07.22    | 7:29  |
 | 57   | Third Party Packages                      |             | 5:30  |
 | 58   | Context Providers                         |             | 6:08  |
 | 59   | Client-only Code                          |             | 4:34  |
