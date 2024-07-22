@@ -1,14 +1,22 @@
 "use client";
 
-import { serverSideFunction } from "@/utils/server-utils";
+import { useTheme } from "@/components/theme-provider";
+import { clientSideFunction } from "@/utils/client-utils";
+
+// import "./ImageSlider.css";
 
 export default function ClientRoutePage() {
-  console.log("client route rendered");
-  const result = serverSideFunction();
+  const theme = useTheme();
+  const result = clientSideFunction();
   return (
     <>
-      <h1>ClientRoutePage</h1>
-      <p>{result}</p>
+      <h1
+        style={{
+          color: theme.colors.primary,
+        }}
+      >
+        Client Route {result}
+      </h1>
     </>
   );
 }

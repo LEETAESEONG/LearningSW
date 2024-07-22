@@ -17,11 +17,23 @@
 - 45 부터는 rendering-deom 레포
 
 ```bash
-npm install slick-carousel --save
+npm i react-slick slick-carousel @types/react-slick
 ```
 
 ```bash
 npm i server-only
+```
+
+```tsx
+import "server-only";
+```
+
+```bash
+npm i client-only
+```
+
+```tsx
+import "client-only";
 ```
 
 <details>
@@ -85,11 +97,11 @@ npm i server-only
 | 54   | Streaming                                 | 24.07.22    | 4:22  |
 | 55   | Server and Client Composition Patterns    | 24.07.22    | 1:11  |
 | 56   | Server-only Code                          | 24.07.22    | 7:29  |
-| 57   | Third Party Packages                      |             | 5:30  |
-| 58   | Context Providers                         |             | 6:08  |
-| 59   | Client-only Code                          |             | 4:34  |
-| 60   | Client Component Placement                |             | 6:35  |
-| 61   | Interleaving Server and Client Components |             | 9:47  |
+| 57   | Third Party Packages                      | 24.07.22    | 5:30  |
+| 58   | Context Providers                         | 24.07.22    | 6:08  |
+| 59   | Client-only Code                          | 24.07.22    | 4:34  |
+| 60   | Client Component Placement                | 24.07.22    | 6:35  |
+| 61   | Interleaving Server and Client Components | 24.07.22    | 9:47  |
 | 62   | Data Fetching                             |             | 2:12  |
 | 63   | Fetching Data with Server Components      |             | 4:41  |
 | 64   | Loading and Error States                  |             | 3:20  |
