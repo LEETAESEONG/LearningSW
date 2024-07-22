@@ -72,8 +72,8 @@
 | 49   | React Server Components (RSC)             | 24.07.21    | 9:01  |
 | 50   | Server and Client Components              | 24.07.21    | 8:21  |
 | 51   | RSC Rendering Lifecycle                   | 24.07.21    | 3:56  |
-| 52   | Static Rendering                          |             | 13:45 |
-| 53   | Dynamic Rendering                         |             | 5:32  |
+| 52   | Static Rendering                          | 24.07.22    | 13:45 |
+| 53   | Dynamic Rendering                         | 24.07.22    | 5:32  |
 | 54   | Streaming                                 |             | 4:22  |
 | 55   | Server and Client Composition Patterns    |             | 1:11  |
 | 56   | Server-only Code                          |             | 7:29  |
