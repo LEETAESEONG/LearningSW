@@ -119,16 +119,16 @@ npm install json-server@0.17.4
 | 59   | Client-only Code                          | 24.07.22    | 4:34  |
 | 60   | Client Component Placement                | 24.07.22    | 6:35  |
 | 61   | Interleaving Server and Client Components | 24.07.22    | 9:47  |
-| 62   | Data Fetching                             |             | 2:12  |
-| 63   | Fetching Data with Server Components      |             | 4:41  |
-| 64   | Loading and Error States                  |             | 3:20  |
-| 65   | JSON Server Setup                         |             | 3:26  |
-| 66   | Caching Data                              |             | 4:43  |
-| 67   | Data Cache                                |             | 4:34  |
-| 68   | Opting Out of Caching                     |             | 8:04  |
-| 69   | Request Memoization                       |             | 5:49  |
-| 70   | Time based Data Revalidation              |             | 5:27  |
-| 71   | Client-side Data Fetching                 |             | 2:17  |
+| 62   | Data Fetching                             | 24.07.23    | 2:12  |
+| 63   | Fetching Data with Server Components      | 24.07.23    | 4:41  |
+| 64   | Loading and Error States                  | 24.07.23    | 3:20  |
+| 65   | JSON Server Setup                         | 24.07.23    | 3:26  |
+| 66   | Caching Data                              | 24.07.23    | 4:43  |
+| 67   | Data Cache                                | 24.07.23    | 4:34  |
+| 68   | Opting Out of Caching                     | 24.07.23    | 8:04  |
+| 69   | Request Memoization                       | 24.07.23    | 5:49  |
+| 70   | Time based Data Revalidation              | 24.07.23    | 5:27  |
+| 71   | Client-side Data Fetching                 | 24.07.23    | 2:17  |
 
 </details>
 <br>
