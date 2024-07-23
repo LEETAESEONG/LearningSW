@@ -14,7 +14,9 @@
 - 1 ~ 32는 next-practice
 - 33 부터 44는 route-handlers-demo 레포
 - Thunder client vs코드 확장자 필요
-- 45 부터는 rendering-deom 레포
+- 45 부터 61는 rendering-demo 레포
+<details>
+<summary> rendering-demo 설치</summary>
 
 ```bash
 npm i react-slick slick-carousel @types/react-slick
@@ -35,6 +37,21 @@ npm i client-only
 ```tsx
 import "client-only";
 ```
+
+</details>
+
+- 62 부터는 data-fetching-demo 레포
+
+<details>
+<summary>data-fetching-demo 설치</summary>
+
+```bash
+npm install json-server@0.17.4
+```
+
+</details>
+
+### 공부 기록
 
 <details>
 <summary>공부한 내용</summary>
