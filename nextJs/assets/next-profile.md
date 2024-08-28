@@ -12,3 +12,5 @@ animate presence 부분이 클릭하면 깜빡거리게 만들 수 있음
 npm i react-icons
 
 npm i react-countup
+
+npm i swiper

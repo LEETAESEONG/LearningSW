@@ -1,0 +1,88 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  // sqlite에서는 json을 지원하지 않는다.
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String  @id @default(uuid())
+  age         Int
+  name        String
+  email       String  @unique
+  role        Role    @default(BASIC) // role
+  isAdmin     Boolean
+  // 모든 sql에서 json을 지원하는 것은 아니지만 postgres에서는 json을 지원
+  preferences Json
+  // largeNumber BigInt
+  blob        Bytes
+  // 지원되지 않는 유형의 타입을 설정
+  // 하지만 이 타입은 잘 사용하지 않으므로 주석 처리
+  // unsupported Unsupported("")
+
+  // Post 모델에서 author User를 설정하면 다른 것들이 자동으로 추가됨
+  // 두개를 참조하는 경우
+  writtenPosts     Post[]          @relation("writtenPosts")
+  favoritePosts    Post[]          @relation("favoritePosts")
+  // 배열이 되는 순간 일대다 관계
+  // UserPreference UserPreference[]
+  userPreference   UserPreference? @relation(fields: [userPreferenceId], references: [id])
+  userPreferenceId String?         @unique
+
+  // 이 모델에서는 이름과 나이가 같은 두 명의 사용자를 가질 수 없다.
+  @@unique([age, name])
+  // 색인
+  // 정렬 및 성능과 같은 작업에 도움이 될 수 있음
+  @@index([email])
+}
+
+model UserPreference {
+  id           String  @id @default(uuid())
+  // 이메일 수신 할건지 등의 확인하는 것들
+  emailUpdates Boolean
+  user         User?
+}
+
+// User 와 Post는 일대다 관계
+model Post {
+  // uuid()는 고유 아이디이며 무작위이고 안전하다.
+  id            String     @id @default(uuid())
+  title         String
+  everageRating Float
+  // Float 보다 더 정확하고 세밀한 부동소수점을 원한다면 decimal
+  createdAt     DateTime   @default(now()) // 이를 생성할 때 정확한 현재 타임스탬프가 기본값으로 설정된다.
+  updatedAt     DateTime   @updatedAt // 업데이트 할 때마다 자동으로 설정됨
+  author        User       @relation("writtenPosts", fields: [authorId], references: [id])
+  authorId      String
+  // 가장 좋아하는 게시물이 없을 수도 있으므로 물음표 = 다시말해 선택사항이다 이말임
+  favoritedBy   User?      @relation("favoritePosts", fields: [favotitedById], references: [id])
+  favotitedById String?
+  // Category      Category? @relation(fields: [categoryId], references: [id])
+  // categoryId    String?
+  categories    Category[]
+
+  // id 속성을 생성할 수 있음
+  // @@id([title, authorId])
+}
+
+// Post와 Category가 다대다 관계
+model Category {
+  id    String @id @default(uuid())
+  name  String @unique
+  posts Post[]
+}
+
+enum Role {
+  BASIC
+  ADMIN
+  // EDITOR
+}
