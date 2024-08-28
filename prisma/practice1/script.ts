@@ -75,7 +75,38 @@ async function main() {
   console.log(users);
 }
 
-main()
+// main()
+//   .catch((e) => {
+//     console.error(e.message);
+//   })
+//   .finally(async () => {
+//     await prisma.$disconnect();
+//   });
+
+// 이미 3명의 유저가 등록된 상태
+async function test() {
+  // select나 include를 사용 가능
+  // 한 명을 찾는 경우? 한 명을 등록하는 경우? 사용할 수 있는 것 같음
+  const user = await prisma.user.findUnique({
+    where: {
+      email: "lts2@test.com",
+      // @@unique([age, name])로 인해서 age_name키가 생김
+    },
+  });
+  const user2 = await prisma.user.findUnique({
+    where: {
+      age_name: {
+        age: 31,
+        name: "TDD",
+      },
+    },
+  });
+  console.log(user);
+  console.log(user2);
+  // 없는 사람을 찾았을 경우 null로 나옴
+}
+
+test()
   .catch((e) => {
     console.error(e.message);
   })
